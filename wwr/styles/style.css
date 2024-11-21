@@ -235,12 +235,72 @@ nav a:hover {
     align-self: center;
 }
 
+/* Rivers Page */
+
+main.rivers-grid {
+    display: grid;
+    grid-template-columns: auto; 
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+    
+main.rivers-grid-container {
+    padding: 20px; 
+    border-radius: 10px; 
+    box-sizing: border-box;
+}
+
+.salmon-river {
+    grid-row: 1;
+    background-color: #d2d4c8;
+    color: #5b5941;
+    padding: 25px 50px;
+    margin-top: 100px;
+}
+
+.gray-canyon {
+    grid-row: 2;
+    background-color: #d2d4c8;
+    color: #5b5941;
+    padding: 25px 50px;
+    margin-top: 100px;
+}
+
+.grand-canyon {
+    grid-row: 3;
+    background-color: #d2d4c8;
+    color: #5b5941;
+    padding: 25px 50px;
+    margin-top: 100px;
+}
+
+.salmon-river h2, .gray-canyon h2, .grand-canyon h2 {
+    font-family: "Major Mono Display";
+    color: #9d5c62; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.salmon-river p, .gray-canyon p, .grand-canyon p {
+    color: #5b5941;
+    font-family: Noto Sans Mono, Helvetica, sans-serif;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+}
+
+.rivers {
+    border: 5px solid #5b5941;
+}
 
 
 
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .main.rivers-grid {
         display: block;
         height: auto;
     }
