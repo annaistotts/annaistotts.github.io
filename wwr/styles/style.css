@@ -372,8 +372,24 @@ body {
        between the labels and their text fields */
     margin-left: 0.5em;
   }
-  
 
+  #feedback {
+    background-color: #5b5941;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;  
+    color: #d2d4c8;
+    font-family: Noto Sans Mono, Helvetica, sans-serif;   
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+  
 @media screen and (max-width: 900px) {
     #hero, .home-grid, .main.rivers-grid {
         display: block;
