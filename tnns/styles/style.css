@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+
+body {
+    font-family: Alumni Sans Pinstripe, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
