@@ -129,7 +129,7 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 2/5;
-    background-color: rgba(52, 54, 51, 0.5); 
+    background-color: rgba(212, 204, 204, 0.6); 
     border-radius: 15px; 
     padding: 20px; 
 }
@@ -140,7 +140,7 @@ nav a:hover {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-    color:#d4cdcc;
+    color:#343633;
 }
 
 #logo_link {
