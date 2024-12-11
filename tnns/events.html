@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tennis Connect | Event Calendar</title>
     <link rel="stylesheet" href="styles/style.css">
+
+     <!-- Standard Favicon -->
+   <link rel="icon" href="images/logo.ico" type="image/x-icon">
+
+   <!-- PNG Favicons for different sizes -->
+   <link rel="icon" href="images/logo.ico/favicon-32x32.png" sizes="32x32" type="image/png">
+   <link rel="icon" href="images/logo.ico/favicon-16x16.png" sizes="16x16" type="image/png">
+   <link rel="icon" href="images/favicon-96x96.png" sizes="96x96" type="image/png">
+   
 </head>
 <body>
     <div id="content">
@@ -18,15 +27,10 @@
             <a href="lessons.html">PRIVATE LESSONS</a>
         </nav>
     </header>
-    <div id="hero2">
-        <section id="hero2-msg">
-            <h1 class="events-title">Event Calendar</h1>
-            <p>Stay up to date with all our upcoming events! Don’t miss out on the next local tournament or group practice session. Check out the calendar below for details on times, dates, and how to sign up:</p>
-        </section>
-    </div>
-   
+  
     <main class="events-grid">
         <section class ="upcoming-events">
+            <hr>
             <h4>Upcoming Events</h4>
             <h5>January 2024</h5>
             <p>Group Practice Sessions: Monday–Friday, 6:00 PM – 8:00 PM</p>
@@ -41,21 +45,22 @@
             <div class='button-box'>
                 <a class='book' href="">SIGN UP HERE</a>
             </div>
-
+            <hr>
         </section>
-        <section class="group-practice">
-            <h4>Group Practice Sessions</h4>
-            <p>Join us for group practice Monday through Friday, where players of all levels can improve their skills in a structured, supportive environment. Each session includes focused drills for forehand and backhand techniques, serving practice, and fast-paced, competitive short games. Participants are encouraged to bring their own racket, while tennis balls will be provided. Whether you're looking to refine your strokes or build match fitness, our group practices are the perfect way to take your game to the next level.</p>
+        <div class="events-grid-container">
+            <section class="group-practice">
+                <h4>Group Practice Sessions</h4>
                 <img class="group-img" src="images/team.jpg" alt="team">
-        
-        </section>
-        <section class="tournaments">
-            <h4>Local Tournaments</h4>
-            <p>Ready to relive your glory days on the court? We host organized tennis tournaments every month, offering competitive play for all skill levels. Our tournaments feature the following categories: Boys' Singles, Girls' Singles, Boys' Doubles, Girls' Doubles, and Mixed Doubles. All tournaments are structured as single-elimination events, ensuring exciting, high-stakes matches from start to finish. Join us for your chance to compete, improve, and showcase your skills!</p>
+                <p>Join us for group practice Monday through Friday, where players of all levels can improve their skills in a structured, supportive environment. Each session includes focused drills for forehand and backhand techniques, serving practice, and fast-paced, competitive short games. Participants are encouraged to bring their own racket, while tennis balls will be provided. Whether you're looking to refine your strokes or build match fitness, our group practices are the perfect way to take your game to the next level.</p>
+            </section>
+            
+            <section class="tournaments">
+                <h4>Local Tournaments</h4>
                 <img class="tournament-img" src="images/tournament.jpg" alt="tournament">
-        </section>
+                <p>Ready to relive your glory days on the court? We host organized tennis tournaments every month, offering competitive play for all skill levels. Our tournaments feature the following categories: Boys' Singles, Girls' Singles, Boys' Doubles, Girls' Doubles, and Mixed Doubles. All tournaments are structured as single-elimination events, ensuring exciting, high-stakes matches from start to finish. Join us for your chance to compete, improve, and showcase your skills!</p>
+            </section>
+        </div>
        
-   
     </main>
     <footer>
         <p>Tennis Connect &copy; 2024 - Anna Inskeep</p>
