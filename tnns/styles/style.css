@@ -48,6 +48,7 @@ header {
 h4 {
     color: #343633;
     font-size: 1.5em;
+    margin-bottom: 15px;
 }
 
 main.home-grid {
@@ -131,7 +132,7 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 2/5;
-    background-color: rgba(212, 204, 204, 0.6); 
+    background-color: rgba(212, 204, 204, 0.8); 
     border-radius: 15px; 
     padding: 20px; 
 }
